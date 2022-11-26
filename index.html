@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link href="css/Acordes6.css" rel="stylesheet" type="text/css">
+<style>
+.p1 {
+    font-family: "Bison";
+    font-size: 20px;
+	}
+.p2 {
+    font-family: "Alegreya";
+    font-size: 12pt;
+	}
+	#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6B0F0F;
+    list-style-image: none;
+}
+
+li {
+    float: left;
+    list-style-image: none;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:darkgrey;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#buscador {
+	background-color: aliceblue;
+	background-size: 24px;
+	width: 75px;
+	border:#5B5B5B;
+	border-bottom: solid 1px #FFFFFF;
+	padding: 5px 5px 5px 15px;
+	outline: none;
+	}
+.container_footer div {
+    width: 16%;
+}
+</style>
+</head>
+<body>
+<header>
+</header>
+<nav>
+<div>
+	<button class="button"><a href="index.html" class="p1">INICIO</a></button>
+	</div>
+	<div class="dropdown">
+		<a href="html/Clases.html" target="_blank"><button class="button">CLASES</button></a>
+		<div class="dropdown-content">
+		 <a href="https://acordes6.com/clases-de-guitarra-acustica/" class="p1">Guitarra acústica</a>
+		 <a href="https://acordes6.com/clases-de-bajo-electrico/" class="p1">Bajo eléctrico</a>
+      <a href="https://acordes6.com/clases-de-violin/" class="p1">Violín</a>
+		<a href="https://acordes6.com/clases-de-canto/" class="p1">Canto</a>
+		<a href="https://acordes6.com/clases-de-piano/" class="p1">Piano</a>
+		<a href="https://acordes6.com/clases-de-bateria/" class="p1">Batería</a>
+		<a href="https://acordes6.com/clases-de-ukulele/" class="p1">Ukulele</a>	
+		</div>
+	</div>
+		<div class="button"><a href="html/Acerca de nosotros.html" class="p1">ACERCA DE NOSOTROS</a></div>
+		<div class="button"><a href="html/Contacto.html" class="p1">CONTACTO</a></div>
+		<div class="button"><a href="html/Inscribete hoy mismo.html" class="p1">INSCRÍBETE HOY MISMO</a></div>
+	<div></div>
+	<div></div>
+<div class="box">
+  <div class="container-1">
+      <span class="icon"><i class="fa fa-search"></i></span>
+      <input type="search" id="search" placeholder="Buscador..."/>
+  </div>
+</div>
+</nav>
+<main>
+	<section> 
+	<p>
+		<img src="Medios/Imagenes/musician-logo.jpg" class="img_fondo" alt="Guitarrista">
+		</p>
+	</section>
+	<section class="section_div1">
+	<div class="container_div"><h2 class="p4">Atención especializada</h2>
+	<p class="p5">No importa la edad que tengas, hay lugar para todo aquel que esté dispuessto a aprender y le apasione el mundo musical. </p>	
+	</div>
+	<div class="container_div">
+	<h2 class="p4">Cuál es tu instrumento</h2>
+	<p class="p5">Hay mucho de donde escoger. Desde la clásica guitarra acústica hasta el violín. Tenemos diversas clases que ofrecer:
+		<ul class="p5">
+		<li>Guitarra acústica</li><br>
+		<li>Canto</li><br>
+		<li>Violín</li><br>
+		<li>Piano</li><br>
+		<li>Batería</li><br>
+		<li>Ukulele</li><br>
+		<li>Bajo eléctrico</li><br>
+		</ul>
+	</p>
+	</div>
+	<div class="container_div">
+	<h2 class="p4">Acordes 6 Inventors</h2>
+	<p class="p5">Únete, préparate y toca en los mejores escenarios.</p>
+	</div>
+	<div class="container_div">
+	<h2 class="p4">Clases</h2>
+	<p class="p5">Tú decides la forma de tomar las clases. Te ofrecemos sistema presencial y online vía Zoom, WhatsApp o Skype.</p>
+	</div>
+	</section>
+	<section class="section_div1">
+	<div class="container_div container_half"><h2 class="p4">Recitales</h2>
+	<p class="p5">¡Súbete a los mejores escenarios de Puebla!<br>
+	En Acordes 6 realizamos cada medio año, recitales de alumnos en los mejores auditorios, teatros y plazas púlicas de la ciudad para que expongan y pongan a prueba su talento.</p></div>
+	<div class="container_div container_half"><iframe src="https://www.youtube.com/embed/GtBqvuF3qug" width="560" height="315" frameborder="0" class="video_recital" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	</section>
+</main>
+<footer class="container_footer">
+ <div class="footer_izqs p1">
+	<h6 class="p2">CLASES</h6>
+	<a href="https://acordes6.com/clases-de-guitarra-acustica/" target="_blank" class="footer_izqs">Guitarra acústica</a><br>
+    <a href="https://acordes6.com/clases-de-bajo-electrico/" target="_blank" class="footer_izqs">Bajo eléctrico</a><br>
+    <a href="https://acordes6.com/clases-de-violin/" target="_blank" class="footer_izqs">Violín</a><br>
+    <a href="https://acordes6.com/clases-de-canto/" target="_blank" class="footer_izqs">Canto</a><br>
+    <a href="https://acordes6.com/clases-de-piano/" target="_blank" class="footer_izqs">Piano</a><br>
+    <a href="https://acordes6.com/clases-de-bateria/" target="_blank" class="footer_izqs">Batería</a><br>
+<a href="https://acordes6.com/clases-de-ukulele/" target="_blank" class="footer_izqs">Ukulele</a>
+	</div>
+	<div class="footer_izqb">
+	<h6 class="p2">SERVICIOS</h6>
+	<a href="https://acordes6.com/clases-para-ninos/" target="_blank" class="footer_izqb">Niños</a><br>
+    <a href="https://acordes6.com/clases-para-adultos/" target="_blank" class="footer_izqb">Adultos</a><br>
+    <a href="https://acordes6.com/clases-online/" target="_blank" class="footer_izqb">Online</a>
+	</div>
+	<div>
+	<img src="Medios/Iconos/1486053608-facebook_79182.png" class="redsocial" alt="Acordes 6"><a href="https://www.facebook.com/profile.php?id=100047722280880" target="_blank" class="footer_izqs">Acordes 6 Escuela de Música</a><br>
+    <img src="Medios/Iconos/174855.png" class="redsocial" alt="Acordes 6"><a href="https://www.instagram.com/acordes.6/" target="_blank" class="footer_izqs">acordes.6</a><br>
+    <img src="Medios/Iconos/YouTube_23392.png" class="redsocial" alt="Acordes 6"><a href="https://www.youtube.com/channel/UCPm4YiHEwNz-812TBCiwg-A" target="_blank" class="footer_izqs">Acordes 6 Escuela de Música</a>
+	</div>
+	<div>
+	<a href="html/Acerca de nosotros.html" target="blank" class="footer_izqb">Acerca de nosotros</a><br>
+    <a href="html/Contacto.html" target="blank" class="footer_izqb">Contacto</a><br>
+    <a href="html/Inscribete hoy mismo.html" target="blank" class="footer_izqb">Inscríbete hoy mismo</a>
+	</div>
+	<div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.073907065757!2d-98.21190472386223!3d19.01646468374206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0a57738905f%3A0x1586124389eabb5b!2sBlvd.%20Capit%C3%A1n%20Carlos%20Camacho%20Esp%C3%ADritu%205908%2C%20San%20Baltazar%20Campeche%2C%2072550%20Puebla%2C%20Pue.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sus!4v1669056260639!5m2!1ses-419!2sus" width="250" height="250" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	</footer>
+	</body>
+</html>

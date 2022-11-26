@@ -1,0 +1,177 @@
+@charset "utf-8";
+.pic_guitarra {
+    width: 400px;
+    height: 550px;
+    margin-right: 83px;
+    margin-left: 83px;
+    margin-bottom: -11px;
+    right: 0pt;
+    /* [disabled]-webkit-box-sizing: content-box; */
+    /* [disabled]-moz-box-sizing: content-box; */
+    box-sizing: content-box;
+    position: relative;
+    left: 1035px;
+    top: -265px;
+    margin-top: -488px;
+    line-height: 0px;
+    font-size: 0pt;
+    padding-bottom: 0px;
+}
+.Agradecimiento {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: -250px;
+    right: 0px;
+    overflow-x: auto;
+    text-indent: -470px;
+    word-spacing: 0px;
+    vertical-align: 0px;
+    white-space: normal;
+    list-style-type: none;
+    margin-top: 70px;
+    font-size: 18px;
+    margin-bottom: -64px;
+    text-align: center;
+}
+.poc {
+}
+.pic {
+}
+
+#form3  {
+    padding-top: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    background-color: #000000;
+    margin-left: 21px;
+    margin-right: auto;
+    width: 750px;
+    margin-top: 116px;
+    margin-bottom: 80px;
+}
+#form3 label #Nombre {
+    width: 338px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #940709;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    margin-bottom: 25px;
+    max-width: 273px;
+    position: relative;
+    left: -92px;
+    padding-left: 46px;
+}
+
+#form3 #email {
+    width: 50%;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #940709;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    margin-bottom: 25px;
+    min-height: 0px;
+    max-width: 270px;
+    position: relative;
+    left: 15px;
+    margin-left: -90px;
+    padding-left: 50px;
+}
+
+#form3 #Numero Telefonico{
+    width: 50%;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #940709;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    margin-bottom: 25px;
+    min-height: 0px;
+	text-align: center;
+    max-width: 270px;
+}
+
+#form3 #Comentario {
+    width: 738px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #940709;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    margin-left: -60px;
+    margin-top: 11px;
+}
+
+
+.Nombre {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: -250px;
+
+
+}
+.section {
+}
+.nombre {
+    color: #FFFFFF;
+    margin-left: 29px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    top: 44px;
+}
+.Agradecimiento2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 173px;
+    font-size: 30px;
+}
+#Boton {
+    margin-top: 77px;
+    margin-left: 767px;
+    padding-top: 20px;
+    padding-right: 61px;
+    border-radius: 15px;
+    background-color: #940709;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.Numero_Telefono {
+    background-color: #940709;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 20px;
+    min-height: 40px;
+    height: 0px;
+    width: 745px;
+    margin-bottom: 30px;
+}
+.Numero_Texto {
+    color: #FFFFFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    top: 75px;
+}
+.Email_Texto {
+    color: #FFFFFF;
+    line-height: 25px;
+    text-shadow: 0px 0;
+    position: relative;
+    bottom: -32px;
+    left: 7px;
+}

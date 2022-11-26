@@ -1,0 +1,178 @@
+@charset "utf-8";
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+.title {
+    color: #FFFFFF;
+    text-align: center;
+}
+.p1 {
+    font-family: "Bison";
+    font-size: 20px;
+	}
+.p2 {
+    font-family: "Alegreya";
+    font-size: 12pt;
+	color:#FFFFFF;
+	}
+.p3{
+	font-family:"Alegreya";
+	font-size: 18pt;
+	font-variant:bold;
+}
+footer {
+	font-family: "Alegreya";
+	font-size: 10pt;
+    background-color: #6B0F0F;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    flex-direction: column;
+}
+
+#menu li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.footer_izqs , .footer_izqb{
+    font-family: "Alegreya";
+    font-variant: normal;
+    font-size: 10pt;
+    color: #FFFFFF;
+    width: 20%;
+    list-style-type: square;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    height: auto;
+}
+.footer_izqs a:hover, .footer_izqb a:hover{
+    color: #6FC7FF;
+    text-shadow: 0px 0px 5px #8F8F8F;
+}
+.footer_izqs a:visited, .footer_izqb a:visited {
+    color: #A6F5FF;
+}
+
+
+
+.logo {
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+
+#buscador li {
+    display: inline-block;
+    text-align: right;
+    margin-left: 1030px;
+    margin-bottom: 0px;
+}
+
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav {
+    color: #FFFFFF;
+    background-color: #6B0F0F;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+.logo {
+    padding-left: 100px;
+}
+.footer_izqs {
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-left: 18px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+.footer_izqb {
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-left: 18px;
+    padding-bottom: 50px;
+}
+body nav, main, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+#buscador {
+    padding-bottom: 146px;
+}
+.mapa {
+    margin: 0;
+    padding: 20px;
+}
+.container1{
+    overflow: hidden;
+    width: 286px;
+    height: 35px;
+    vertical-align: top;
+    white-space: nowrap;
+    margin-left: 115px;
+}
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  webkit-border-radius: 5px;
+  moz-border-radius: 5px;
+  border-radius: 5px;
+display: block;
+	
+}
+.box .container1 #search {
+    width: auto;
+    margin-right: 24px;
+}
+body nav div {
+    width: 20%;
+}
+.container2 {
+    width: 100px;
+}
+.container_footer {
+    display: flex;
+    width: auto;
+    height: 200px;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+#box_search{
+	
+}.icon {
+    background-color: #FFFFFF;
+    width: 15%;
+    height: auto;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+.redsocial {
+    width: 15%;
+    height: 15%;
+}
